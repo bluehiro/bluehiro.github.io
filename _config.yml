@@ -1,8 +1,8 @@
 # Site settings
-title:       nerd.vincejames
+title:       blog.vincejames
 email:       vince@vincejames.com
 author:      Vince James
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+description: "Errant ramblings of a nerd."
 baseurl:     ""
 url:         "http://blog.vincejames.com"
 
@@ -10,7 +10,7 @@ url:         "http://blog.vincejames.com"
 google_analytics:
 
 # Optional features
-animated:           false
+animated:           true
 show_related_posts: false
 show_post_footers:  false
 show_social_icons:  false
