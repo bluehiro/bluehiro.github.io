@@ -4,7 +4,7 @@ email:       vince@vincejames.com
 author:      Vince James
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://blog.vincejames.com"
 
 # Google analytics
 google_analytics:
