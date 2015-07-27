@@ -1,18 +1,18 @@
 ---
 layout: page
-title: About Pixyll
+title: About blog.vincejames.com
 permalink: /about/
 ---
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+I literally want to learn and do everything.  I have a degree in music, work in information systems, and run my own photography business. But what’s most important is that I’m a husband and a father. My wife and my daughter are the best things in my life.
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
+I was born and raised in the geographical center of British Columbia, but prefer to live in cities due to my appetite for restaurants, high-speed internet, and bookstores. I’ve lived in three countries, six states, and one federal district (México). I once ate a roasted ant. It tasted like bacon-bits.
 
-Thanks to the following:
+Checkout my (now defunct) [Photography Website](http://vincejames.com), follow me on [Twitter](https://twitter.com/vince_james), or read me professional history on [LinkedIn](https://www.linkedin.com/in/vincejames).
 
+Thanks to the following for the website:
+
+* [Pixyll](https://github.com/johnotander/pixyll)
 * [BASSCSS](http://basscss.com)
 * [Jekyll](http://jekyllrb.com)
 * [Refills](http://refills.bourbon.io/)
