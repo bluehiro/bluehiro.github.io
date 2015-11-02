@@ -26,4 +26,4 @@ Add a little oil to your frying pan over a medium to medium-low heat. Cook the c
 
 With your chicken cooked, throw it in a pot with your Coconut Curry or Vindaloo sauce and simmer for 15-20 minutes. The cut of the chicken will allow the sauces to work their way inside the meat.
 
-Good luck!
+Buen provecho!
