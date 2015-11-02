@@ -16,9 +16,9 @@ What you need
 * Thawed chicken breast
 * Vegetable oil
 
-Take your thawed chicken breast, cut off any fatty bits (unless you LIKE the fatty bits). Then thin slice the chicken as shown in this wonderful youtube video;
+Take your thawed chicken breast, cut off any fatty bits (unless you LIKE the fatty bits). Then thin slice the chicken as shown in this wonderful video;
 
-https://www.youtube.com/watch?v=5nF-Zsvqp8M&t=1m10s
+[YouTube Video](https://www.youtube.com/watch?v=5nF-Zsvqp8M&t=1m10s)
 
 Note: this is hard to do with a dull knife. Go slow and don't cut yourself.
 
