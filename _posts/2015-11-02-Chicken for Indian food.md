@@ -6,7 +6,7 @@ summary:    Thin slice and saute briefly
 categories: jekyll pixyll
 ---
 
-After some requests on facebook, I wanted to give a quick and simple guide to preparing chicken for including with indian food. Specifically the Coconut Curry and Vindaloo sauces currently being sold at Costco.
+After some requests on Facebook, I wanted to give a quick and simple guide to preparing chicken to pair with Indian sauces. Specifically the Coconut Curry and Vindaloo sauces currently being sold at Costco.
 
 What you need
 
@@ -20,7 +20,7 @@ Take your thawed chicken breast, cut off any fatty bits (unless you LIKE the fat
 
 https://www.youtube.com/watch?v=5nF-Zsvqp8M&t=1m10s
 
-Note: this will be really hard with a dull knife. Do it slow and careful so you don't cut yourself.
+Note: this is hard to do with a dull knife. Go slow and don't cut yourself.
 
 Add a little oil to your frying pan over a medium to medium-low heat. Cook the chicken until it is just starting to turn golden and is STILL MOIST. If there is lots of water in the pan, drain it so that the chicken can brown (wet meat won't brown). Feel free to break the pieces of chicken into smaller pieces now that they're mostly cooked.
 
