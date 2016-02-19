@@ -3,7 +3,7 @@ title:       blog.vincejames
 email:       vince@vincejames.com
 author:      Vince James
 description: "Errant ramblings of a DBA."
-baseurl:     "http://blog.vincejames.com"
+baseurl:     ""
 url:         "http://blog.vincejames.com"
 
 # Google analytics
