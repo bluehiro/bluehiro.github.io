@@ -2,7 +2,7 @@
 title:       blog.vincejames
 email:       vince@vincejames.com
 author:      Vince James
-description: "Errant ramblings of a nerd."
+description: "Errant ramblings of a DBA."
 baseurl:     ""
 url:         "http://blog.vincejames.com"
 
@@ -13,18 +13,18 @@ google_analytics:
 animated:           true
 show_related_posts: false
 show_post_footers:  false
-show_social_icons:  false
+show_social_icons:  true
 
 # Disqus post comments
 # (leave blank to disable Disqus)
 disqus_shortname:
 
 # Social icons
-github_username: bluehiro
-stackoverflow_id: bluehiro
+github_username: 
+stackoverflow_id: 
 twitter_username: vince_james
 google_plus_id:
-linkedin_username:
+linkedin_username: vincejames
 angellist_username:
 medium_id:
 bitcoin_url:
