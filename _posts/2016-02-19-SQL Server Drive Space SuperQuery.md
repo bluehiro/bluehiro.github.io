@@ -6,7 +6,9 @@ summary:    Query drivespace securely from SQL Server
 categories: SQL MSSQL
 ---
 
-After months of tinkering I finally found a secure and effective way to query SQL Server for drive space INCLUDING drive capacity, while preserving compatibility from 2005 up to 2014! I will be using this code embedded in an SSIS package to retrieve drive space and capacity twice day from the SQL Servers I manage at work.
+Recently I've grown frustrated with my options for monitor SQL Server drive space. Using the xp_fixeddrives command doesn't give drive capacity (and IS technically deprecated), and sys.dm_os_volume_stats only shows drives with databases on them while also requiring SQL 2008 R2 or above. Neither of these methods met my needs.
+
+So today I sat down and wrote a secure and effective way to query SQL Server for drive space INCLUDING drive capacity, while preserving compatibility from 2005 up to 2014! I will be using this code embedded in an SSIS package to retrieve drive space and capacity twice a day from the SQL Servers I manage at work. By writing a report that keys off this data I can get advance notice if a drive is filling up, using both percentage and thresholds (e.g 10% free or less than 1gb, send an email).
 
 {% highlight sql lineanchors %}
 IF OBJECT_ID('tempdb..#OleBefore') IS NOT NULL
@@ -153,4 +155,6 @@ PRINT 'Ole Adv Opt After: ' + CONVERT(VARCHAR(1),@AdvOptAfter)
 {% endhighlight %}
 
 
-The secret sauce is really the first and last bits that turn Ole Automation on and off as needed. Most importantly, it preserves whatever setting already existed on the server it is running on. The amount of time spent with Ole Automation enabled is kept to the absolutely minimum, roughly 1 second or less in my testing. Using the xp_drive command doesn't give capacity, and os_volumes only shows drives with databases on them. Both of these are deal breakers for me.
+The secret sauce is really the first and last bits that turn Ole Automation on and off as needed. Most importantly, it preserves whatever "Ole Automation Procedure"/"show advanced options" settings are already in use on the server. For servers that do not have these options enabled, the amount of time spent with Ole Automation enabled is kept to the absolutely minimum (roughly 1 second or less in my testing).
+
+Hopefully someone will find this useful as googling helped but never delivered a full solution. If anyone is interested I could also share the SSIS package I use to execute this code against all the SQL Servers listed in a Central Management Server (CMS).
