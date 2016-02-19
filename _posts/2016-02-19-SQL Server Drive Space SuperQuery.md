@@ -155,6 +155,6 @@ PRINT 'Ole Adv Opt After: ' + CONVERT(VARCHAR(1),@AdvOptAfter)
 {% endhighlight %}
 
 
-The secret sauce is really the first and last bits that turn Ole Automation on and off as needed. Most importantly, it preserves whatever "Ole Automation Procedure"/"show advanced options" settings are already in use on the server. For servers that do not have these options enabled, the amount of time spent with Ole Automation enabled is kept to the absolutely minimum (roughly 1 second or less in my testing).
+The secret sauce is really the first and last bits that turn Ole Automation on and off as needed. Most importantly, it preserves whatever "Ole Automation Procedure"/"show advanced options" settings are already in use on the server. For more secure server the time spent with these options enabled is kept to the absolutely minimum (roughly 1 second or less in my testing).
 
-Hopefully someone will find this useful as googling helped but never delivered a full solution. If anyone is interested I could also share the SSIS package I use to execute this code against all the SQL Servers listed in a Central Management Server (CMS).
+Hopefully someone will find this useful, I search for a solution like this and never did find anything quite like it. If anyone is interested I could also share the SSIS package I use to execute this code against all the SQL Servers listed in a Central Management Server (CMS).
